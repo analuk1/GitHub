@@ -118,6 +118,7 @@ label {
     color: rgb(55, 54, 54);
     cursor: text;
     transition: 0.2s;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -149,6 +150,8 @@ button {
     cursor: pointer;
     border: 1px solid #fff;
     width: 100%;
+    font-family: 'Raleway', sans-serif;
+
 }
 button:hover {
     background-color: rgb(53, 52, 52);
@@ -195,7 +198,7 @@ button:hover {
     height:40px;
     text-align: center;
     text-decoration: none;
-    color: #000;
+    color: gray;
     box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
     margin: 0 10px 0 0;
     border-radius: 50%;
