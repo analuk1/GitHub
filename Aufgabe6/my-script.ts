@@ -1,43 +1,45 @@
-function Germany(a, b, c, d) {
-    var result = ""
-    result += a + " Waldfläche in Deutschland " 
-    result += b + " Relativ zur Gesamtzahl in der EU "
-    result += c + " Baumverlust seit 2001 "
-    result += d + " Baumverlust gesammt zwischen 2001 und 2021 "
-    return result;
-}
+const germany = "Deutschland" ;
+const france = "Spanien";
+const italy = "Italien";
+const croatia = "Kroatien";
+const forestCoverEU = 159000000;
+const forestCover2021DE = 10666600;
+const forestCover2011DE = 11419124;
+const forestCover2021FR = 17100000;
+const forestCover2011FR = 15000000;
+const forestCover2021IT = 11000000;
+const forestCover2011IT = 9149000;
+const forestCover2021KRO = 2700000;
+const forestCover2011KRO = 2260000;
 
-console.log(Germany("11.4 mHa","7.1%", "9.1%", "1.14 mHa"))
+let ProzentD1 = (1-forestCover2021DE/forestCoverEU)*100;
+let ProzentF1 = (1-forestCover2021FR/forestCoverEU)*100;
+let ProzentI1 = (1-forestCover2021IT/forestCoverEU)*100;
+let ProzentKRO1 = (1-forestCover2021KRO/forestCoverEU)*100;
 
-function France(a, b, c, d) {
-    var result = ""
-    result += a + " Waldfläche in Frankreich " 
-    result += b + " Relativ zur Gesamtzahl in der EU "
-    result += c + " Baumverlust seit 2001 "
-    result += d + " Baumverlust gesammt zwischen 2001 und 2021 "
-    return result;
-}
+let ProzentD = (1-forestCover2011DE/forestCover2021DE)*100;
+let ProzentF = (1-forestCover2011FR/forestCover2021FR)*100;
+let ProzentI = (1-forestCover2011IT/forestCover2021IT)*100;
+let ProzentKRO = (1-forestCover2011KRO/forestCover2021KRO)*100;
 
-console.log(France("17.1 mHa","10.7%", "7.9%", "1.33 mHa"))
+console.log(" Waldfläche in " + germany + " beträgt " + forestCover2021DE + "mKh." );
+console.log(" Relativ zur Gesamtzahl in der EU " + ProzentD1 + " %. ");
+console.log(" Waldfläche in " + germany + " betrug in 2011 " + forestCover2011DE + " mKh. " );
+console.log(" Waldfläche ist in den letzten 10 Jahren um " + ProzentD + " % gesunken.");
 
-function Italy(a, b, c, d) {
-    var result = ""
-    result += a + " Waldfläche in Italien " 
-    result += b + " Relativ zur Gesamtzahl in der EU "
-    result += c + " Baumverlust seit 2001 "
-    result += d + " Baumverlust gesammt zwischen 2001 und 2021 "
-    return result;
-}
+console.log(" Waldfläche in " + france + " beträgt " + forestCover2021FR + " mKh. ");
+console.log(" Relativ zur Gesamtzahl in der EU " + ProzentF1 + " %. ");
+console.log(" Waldfläche in " + france + " betrug in 2011 " + forestCover2011FR + " mKh. " );
+console.log(" Waldfläche ist in den letzten 10 Jahren um " + ProzentF + " % gesunken.");
 
-console.log(Italy("11 mHa","6.9%", "4.5%", "415 kHa"))
+console.log(" Waldfläche in " + italy + " beträgt " + forestCover2021IT + "mKh.");
+console.log(" Relativ zur Gesamtzahl in der EU " + ProzentI1 + " %. ");
+console.log(" Waldfläche in " + france + " betrug in 2011 " + forestCover2011IT + " mKh. " );
+console.log(" Waldfläche ist in den letzten 10 Jahren um " + ProzentI + " % gesunken.");
 
-function Croatia(a, b, c, d) {
-    var result = ""
-    result += a + " Waldfläche in Italien " 
-    result += b + " Relativ zur Gesamtzahl in der EU "
-    result += c + " Baumverlust seit 2001 "
-    result += d + " Baumverlust gesammt zwischen 2001 und 2021 "
-    return result;
-}
+console.log(" Waldfläche in " + croatia + " beträgt " + forestCover2021KRO + "mKh.");
+console.log(" Relativ zur Gesamtzahl in der EU " + ProzentKRO1 + " %. ");
+console.log(" Waldfläche in " + croatia + " betrug in 2011 " + forestCover2011KRO + " mKh. " );
+console.log(" Waldfläche ist in den letzten 10 Jahren um " + ProzentKRO + " % gesunken.");
 
-console.log(Croatia("2.7 mHa","1.7%", "3.6%", "87.6 kHa"))
+
