@@ -16,7 +16,7 @@ header{
     margin-top: 0%;
     position: relative;
     animation: slide 10s infinite;
-    background: url(img2.jpg);
+    background: url(galery/img2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 70%;
@@ -28,25 +28,25 @@ header{
 
 @keyframes slide{
     25% {
-        background: url(img2.jpg);
+        background: url(galery/img2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 70%;
     }
     50% {
-        background: url(img4.jpg);
+        background: url(galery/img4.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 40%;
     }
     75% {
-        background: url(img1.jpg);
+        background: url(galery/img1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 50%;
     }
     100% {
-        background: url(img2.jpg);
+        background: url(galery/img2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 70%;
