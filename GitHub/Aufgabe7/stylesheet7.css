@@ -59,3 +59,43 @@ footer p {
     background: #ffcc00;
 }
 
+
+.styleDE {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 6.71%;
+    background: #ffcc00;
+}
+
+.styleFR {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10.75%;
+    background: #ffcc00;
+}
+
+.styleIT {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 6.92%;
+    background: #ffcc00;
+}
+
+.styleKRO {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1.7%;
+    background: #ffcc00;
+}
+
+.styleEU {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffcc00;
+}
