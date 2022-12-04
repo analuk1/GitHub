@@ -1,0 +1,162 @@
+*{
+
+    font-family: 'Oswald', sans-serif;
+    padding:0px;
+    margin:0px;
+    background-color: black;
+
+    
+
+
+}
+
+body{
+    min-height: 100%;
+    overflow: auto;
+}
+
+
+
+h1 {
+    color: #fff;
+    font-size: 5vw;
+    letter-spacing: 6px;
+    margin: auto;
+    padding-left: 35%;
+
+
+  }
+  
+.drumpad {
+    width: 470px;
+    height: 470px;
+    border: 5px solid rgb(0, 0, 0);
+    position: relative;
+    margin: auto;
+
+
+
+    
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: inset 8px 8px 6px -6px gray;
+    margin-bottom: 20%;
+
+
+
+
+    
+
+
+}
+
+.pad1{
+    background:linear-gradient(to top, pink, beige);
+    position: absolute;
+    margin-bottom: 20px;
+
+
+    
+}
+
+.pad2{
+    background:linear-gradient(to top, pink, beige);
+    position: absolute;
+    right: 0%;
+
+
+    
+}
+
+.pad3{
+    background:linear-gradient(to top, pink, beige);
+    position: absolute;
+    right: 160px;
+
+
+    
+}
+
+.pad4{
+    background:linear-gradient(to top, blueviolet, beige);
+    position: absolute;
+    top: 150px;
+    margin-top: 10px;
+}
+
+.pad5{
+    background:linear-gradient(to top, blueviolet, beige);
+    position: absolute;
+    right: 160px;
+    top: 150px;
+    margin-top: 10px;
+}
+
+.pad6{
+    background:linear-gradient(to top, blueviolet, beige);
+    position: absolute;
+    right: 0%;
+    top: 150px;
+    margin-top: 10px;
+}
+
+.pad7{
+    background:linear-gradient(to top, blueviolet, beige);
+    position: absolute;
+    top: 300px;
+    margin-top: 20px;
+}
+
+.pad8{
+    background:linear-gradient(to top, yellowgreen, beige);
+    position: absolute;
+    right: 160px;
+    top: 300px;
+    margin-top: 20px;
+}
+
+.pad9{
+    background:linear-gradient(to top, yellowgreen, beige);
+    position: absolute;
+    right:0%;
+    top: 300px;
+    margin-top: 20px;
+}
+
+.box:hover {
+   cursor: pointer;
+}
+  
+.box:active {
+    transform: scale(1.1);
+    transition: all .2s;
+}
+
+.playbutton{
+    padding-left: 45%;
+}
+
+img {
+    margin: auto;
+
+}
+
+img:active {
+    transform: scale(1.1);
+    transition: all .2s;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+.pressed{
+    box-shadow: 0 3px 4px 0 #fff ;
+    opacity: 0.6;
+}
+  
+
