@@ -137,13 +137,20 @@ h1 {
 }
 
 
+.buttons{
+    display:grid;
+    width:200px;
+    height:100px;
+    margin-left:auto;
+    margin-right:auto;
+    color: white;
+}
 
 #play{
-
     width: 150px;
     height: 150px;
     transition: all .3s;
-
+    color: white;
 }
 
 #play:hover{
@@ -167,24 +174,14 @@ h1 {
 }
 
 
-
-#remix:hover{
-
-    transform: scale(1.04);
-}
-
 #remix:active{
 
     transform: scale(0.9);
 }
 
-#buttons{
 
-    color: white;
-    width: 600px;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: auto;
-    text-align: center;
-    font-size: 120px;
-}
+
+ #remix:hover{
+     transform:scale(1.1);
+ }
+
